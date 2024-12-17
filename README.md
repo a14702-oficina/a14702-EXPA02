@@ -24,9 +24,11 @@ Para declarar uma função em Python, precisamos conhecer quatro coisas: a palav
 
 # DECLARAÇÃO COM PARÂMETROS
 	def exibirMensagemBoasVindas(pessoa, mensagem):
+ 
 		print(f"{mensagem}, {pessoa}")
 
 	exibirMensagemBoasVindas(mensagem = "Bom dia", pessoa = "Ana")
+ 
 	#Saída: Bom dia, Ana
 
 
