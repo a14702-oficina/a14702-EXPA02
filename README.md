@@ -11,15 +11,15 @@ Para declarar uma função em Python, precisamos conhecer quatro coisas: a palav
 
 # DECLARAÇÃO SEM PARÂMETROS 
 
-## def exibirMensagem():
+    def exibirMensagem():
 
-   print("Python é fácil")
+     print("Python é fácil")
      
-exibirMensagem()
+    exibirMensagem()
 
-exibirMensagem()
+    exibirMensagem()
 
-exibirMensagem()
+    exibirMensagem()
 
 
 
