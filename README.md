@@ -40,11 +40,11 @@ Desenvolver uma função que leia os valores de uma lista os some e apresente
 
     	soma = 0
  
-   	for valor in inteiros:
+   		for valor in inteiros:
  
-  		soma = soma + valor
+  			soma = soma + valor
   
-	return soma
+		return soma
 
     print(somarElementosLista([3,4,6,9,10,23,13]))    #Resultado 68
 
