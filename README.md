@@ -23,11 +23,11 @@ Para declarar uma função em Python, precisamos conhecer quatro coisas: a palav
 
 
 # DECLARAÇÃO COM PARÂMETROS
-def exibirMensagemBoasVindas(pessoa, mensagem):
-	print(f"{mensagem}, {pessoa}")
+	def exibirMensagemBoasVindas(pessoa, mensagem):
+		print(f"{mensagem}, {pessoa}")
 
-exibirMensagemBoasVindas(mensagem = "Bom dia", pessoa = "Ana")
-#Saída: Bom dia, Ana
+	exibirMensagemBoasVindas(mensagem = "Bom dia", pessoa = "Ana")
+	#Saída: Bom dia, Ana
 
 
 
@@ -35,13 +35,14 @@ exibirMensagemBoasVindas(mensagem = "Bom dia", pessoa = "Ana")
 # EXERCÍCIO RESOLVIDO
 
 Desenvolver uma função que leia os valores de uma lista os some e apresente
-def somarElementosLista(inteiros):
 
-    soma = 0
+    def somarElementosLista(inteiros):
+
+    	soma = 0
  
    	for valor in inteiros:
  
-  	soma = soma + valor
+  		soma = soma + valor
   
 	return soma
 
