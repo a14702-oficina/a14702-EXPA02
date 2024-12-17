@@ -13,7 +13,7 @@ Para declarar uma função em Python, precisamos conhecer quatro coisas: a palav
 
 ## def exibirMensagem():
 
-     print("Python é fácil")
+   print("Python é fácil")
      
 exibirMensagem()
 
